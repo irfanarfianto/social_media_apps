@@ -52,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen> {
     } else {
       // Jika belum login, navigasikan ke halaman LoginScreen
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => LoginScreen()),
+        MaterialPageRoute(builder: (context) => AuthPage()),
       );
     }
   }
